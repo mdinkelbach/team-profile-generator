@@ -1,5 +1,6 @@
-const Site = require("./lib/employee");
+const Manager = require("./lib/manager").Manager;
+const Employee = require("./lib/employee").Employee;
 
-const site = new Site();
+const employee1 = new Manager('Tot', 15, 'Tot@tot.com', 5)
 
-site.getname();
+employee1.getName();
