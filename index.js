@@ -14,7 +14,7 @@ function begin() {
     fs.writeFile('./dist/style.css', css(), (err) =>
     err ? console.error(err) : cssPh = ''
     );
-    console.log('Manager')
+    console.log(`Enter Manager's Name`)
     const manager = new Manager()
     manager.getName();
 }
